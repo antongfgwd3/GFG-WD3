@@ -1,0 +1,22 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* transform: translate(-50px, -20px); */
+  /* transform: rotate(40deg); */
+  /* transform: translate(80px, 50px) skew(60deg); */
+  transition: 0.3s ease-in;
+}
+
+button {
+  transition: all 0.3s ease-in;
+}
+
+div:hover,
+button:hover {
+  transform: scale(1.5);
+}
+
+/* section {
+  transform: scale(0.9);
+} */

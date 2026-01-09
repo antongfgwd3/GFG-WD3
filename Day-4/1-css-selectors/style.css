@@ -1,0 +1,43 @@
+/* div p {
+  color: red;
+} */
+
+/* div > p {
+  color: green;
+} */
+
+/* div + p {
+  color: blue;
+} */
+
+/* div ~ p {
+  color: red;
+} */
+
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+/* div p:nth-of-type(odd) {
+  color: red;
+} */
+
+/* .fourth span {
+  color: red;
+} */
+
+/* div p:nth-child(6)::first-letter {
+  color: red;
+} */
+
+p[title="two"] {
+  color: red;
+}
